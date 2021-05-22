@@ -5,9 +5,6 @@
   "description": "Package testing",
   "unity": "2020.2",
   "unityRelease": "6f1",
-  "dependencies": {
-	"com.xcaderkilgard.example": "https://github.com/SergioSugaharaC/Neuranimation.git"
-  },
   "keywords": [
     "keyword1",
     "keyword2",
