@@ -14,14 +14,16 @@ public class FieldOfView : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         StartCoroutine("FindTargetsDelay", 0.3f);
-        //obstacleMask = LayerMask.GetMask(LayerMask.LayerToName(6));
-        targetMask = LayerMask.GetMask(LayerMask.LayerToName(6));
+        //obstacleMask = LayerMask.GetMask(LayerMask.LayerToName(7));
+        //targetMask = LayerMask.GetMask(LayerMask.LayerToName(6));
         targetsAround = new List<GameObject>();
         sc = gameObject.GetComponent<SphereCollider>();
     }
 
     IEnumerator FindTargetsDelay(float delay){
         while(true){
+            targetMask = LayerMask.GetMask(LayerMask.LayerToName(LayerMask.NameToLayer("Objects")));
+        
             yield return new WaitForSeconds(delay);
             FindVisibleTargets();
             GetPoints();

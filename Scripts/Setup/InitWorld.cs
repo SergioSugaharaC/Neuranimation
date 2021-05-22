@@ -8,7 +8,7 @@ public class InitWorld : MonoBehaviour{
     //private LayerMask mask = new LayerMask()
     GameObject go;
     GameObject points;
-    GameObject[] allChildren;
+    Transform[] allChildren;
 
     // Start is called before the first frame update
     void Start(){
@@ -18,9 +18,9 @@ public class InitWorld : MonoBehaviour{
         
         go.layer = LayerMask.NameToLayer("Objects");
         points = go.transform.GetChild(0).gameObject;
-        allChildren = points.GetComponentsInChildren<GameObject>();
+        allChildren = points.GetComponentsInChildren<Transform>();
         
-        foreach(GameObject child in allChildren) child.layer = LayerMask.NameToLayer("Contacts");
+        foreach(Transform child in allChildren) child.gameObject.layer = LayerMask.NameToLayer("Contacts");
     }
 }
 

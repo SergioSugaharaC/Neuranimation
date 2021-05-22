@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movSpeed: 2.5
-  rotSpeed: 1
+  rotSpeed: 10
 --- !u!114 &-8565841521916843139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e30c253592cc04f9d3e871e5325ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vRadius: 3
+  vRadius: 5
 --- !u!1 &8154768582999844114
 GameObject:
   m_ObjectHideFlags: 0
