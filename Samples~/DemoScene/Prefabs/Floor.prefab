@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7443408308064160025}
   - component: {fileID: 7326768347816510344}
   - component: {fileID: 6199190124577958538}
-  - component: {fileID: 1580251234}
+  - component: {fileID: 3483928592041722752}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2a166def5da408842a41f4d6a03f3340, type: 2}
+  - {fileID: 2100000, guid: 7ff0e0333bf12924a8973d9c37956b9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1580251234
+--- !u!114 &3483928592041722752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,6 +105,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 573882363221094906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 209ea68d732def44ba7a923257cf9d73, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a2ec4fd019603447a2d6725091025f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
