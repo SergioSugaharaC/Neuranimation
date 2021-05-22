@@ -5,6 +5,7 @@ using UnityEditor;
 
 public class InitWorld : MonoBehaviour{
     private Layers layersManager = new Layers();
+    //private LayerMask mask = new LayerMask()
     GameObject go;
     GameObject points;
     GameObject[] allChildren;
@@ -14,11 +15,12 @@ public class InitWorld : MonoBehaviour{
         layersManager.AddNewLayer("Objects");
         layersManager.AddNewLayer("Contacts");
         go = GameObject.Find("Chair_02");
-        go.layer = 6;
+        
+        go.layer = LayerMask.NameToLayer("Objects");
         points = go.transform.GetChild(0).gameObject;
         allChildren = points.GetComponentsInChildren<GameObject>();
         
-        foreach(GameObject child in allChildren) child.layer = 7;
+        foreach(GameObject child in allChildren) child.layer = LayerMask.NameToLayer("Contacts");
     }
 }
 
