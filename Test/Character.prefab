@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 44907607746826654}
   - component: {fileID: 44907607746826595}
   - component: {fileID: 44907607746826655}
-  - component: {fileID: 44907607746826649}
-  - component: {fileID: 44907607746826648}
+  - component: {fileID: -2582116102642344730}
+  - component: {fileID: 7267137478038189197}
   m_Layer: 3
   m_Name: Character
   m_TagString: Untagged
@@ -129,7 +129,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &44907607746826649
+--- !u!114 &-2582116102642344730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,12 +138,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 44907607746826592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f72cb1540d92848b1812d9d225b00d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8637f98cb93da5c4d8f4c92f44dc9042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movSpeed: 2.5
-  rotSpeed: 20
---- !u!114 &44907607746826648
+  rotSpeed: 1
+--- !u!114 &7267137478038189197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,10 +152,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 44907607746826592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ba20fa1fc3524644b6457f8baced9a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ecbcc498d31c634f9384e84b6a8e3c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vRadius: 5
+  vRadius: 0
 --- !u!1 &44907608934173292
 GameObject:
   m_ObjectHideFlags: 0
