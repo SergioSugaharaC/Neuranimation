@@ -15,5 +15,12 @@
     "email": "Sugahara.Sergio@gmail.com",
     "url": "https://www.unity3d.com"
   },
-  "type": "sample"
+  "type": "sample",
+  "samples": [
+	{
+     "displayName": "Demo",
+     "description": "Demo scene for the surroundings detector",
+     "path": "Samples~/DemoScene"
+	}
+   ]
 }
