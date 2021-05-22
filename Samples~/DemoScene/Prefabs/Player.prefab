@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 2829036847101383159}
   - component: {fileID: 795491029305783855}
   - component: {fileID: 5204845784713541200}
-  - component: {fileID: 8230004897863042258}
-  - component: {fileID: 8058163229788753077}
-  - component: {fileID: -6741847926149866301}
+  - component: {fileID: 4407785168775339545}
+  - component: {fileID: -6461305739795768075}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -65,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dfdf5de0c9d3f3a48a8c5907c38b47bc, type: 2}
+  - {fileID: 2100000, guid: 740002ce4013fdf45b43247bbe4c69ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,7 +100,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!135 &5204845784713541200
 SphereCollider:
@@ -116,20 +115,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &8230004897863042258
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907393598634724124}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 7.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8058163229788753077
+--- !u!114 &4407785168775339545
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,12 +124,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 907393598634724124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d9fd0c7b7bf874db2a003e5e16c301, type: 3}
+  m_Script: {fileID: 11500000, guid: 67f72cb1540d92848b1812d9d225b00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movSpeed: 2.5
-  rotSpeed: 10
---- !u!114 &-6741847926149866301
+  rotSpeed: 3
+--- !u!114 &-6461305739795768075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,10 +138,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 907393598634724124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38e30c253592cc04f9d3e871e5325ec2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ba20fa1fc3524644b6457f8baced9a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vRadius: 5
+  vRadius: 7
 --- !u!1 &8154768582999844114
 GameObject:
   m_ObjectHideFlags: 0
